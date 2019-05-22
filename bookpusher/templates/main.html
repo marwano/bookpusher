@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Robotic Librarian</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<h1>Robotic Librarian</h1>
+
+<form method=post>
+<button type=submit name=book value=random>Random</button>
+<button type=submit name=book value=all>All Books(Crazy Mode)</button><br/><br/>
+{% for book in books %}
+	<button type=submit name=book value={{ book }}>
+		<img src="{{ static_url('book%s.jpg' % book) }}" alt="book{{ book }}">
+	</button>
+{% end %}
+</form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Robot Remote</title>
+    <link rel="stylesheet" href="{{ static_url('main.css') }}" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<h1>Robot Remote</h1>
+<div class="container">
+	<img src="{{ static_url('remote.jpg') }}" alt="ui">
+	<form method=post>
+		<input type=submit name=action value=forward>
+		<input type=submit name=action value=right>
+		<input type=submit name=action value=left>
+		<input type=submit name=action value=back>
+		<input type=submit name=action value=stop>
+		<input type=submit name=action value=raise>
+		<input type=submit name=action value=lower>
+	</form>
+</div>
+</body>
+</html>
