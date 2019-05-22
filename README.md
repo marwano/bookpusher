@@ -62,7 +62,7 @@ The teach.py module makes working with the REPL easier for kids.
 
 >>> # check state of capacitive touch
 >>> r.touch
->>> False
+False
 ```
 
 
