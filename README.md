@@ -66,7 +66,7 @@ False
 ```
 
 
-## Video
+## Videos
 [![desk demo](http://img.youtube.com/vi/L4mmceH9Uw0/0.jpg)](http://www.youtube.com/watch?v=L4mmceH9Uw0)
 
 [![falling demo](http://img.youtube.com/vi/q6uYCZr2GVc/0.jpg)](http://www.youtube.com/watch?v=q6uYCZr2GVc)
